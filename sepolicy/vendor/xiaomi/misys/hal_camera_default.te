@@ -1,0 +1,4 @@
+# For interfacing with PowerHAL
+hal_client_domain(hal_camera_default, hal_configstore)
+
+binder_call(hal_camera_default, system_server)
