@@ -32,7 +32,7 @@ public class PopupCameraPreferences {
     private static final boolean LED_EFFECT_DEFAULT_VALUE = true;
 
     private static final String SOUND_EFFECT_KEY = "popup_sound_effect";
-    private static final String SOUND_EFFECT_DEFAULT_VALUE = "0";
+    private static final String SOUND_EFFECT_DEFAULT_VALUE = "-1";
 
     public PopupCameraPreferences(Context context) {
         mContext = context;
