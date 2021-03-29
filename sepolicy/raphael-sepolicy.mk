@@ -4,6 +4,10 @@
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/raphael/sepolicy/private
 
+# Misc Sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/raphael/sepolicy/vendor/misc
+
 # NXP Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/raphael/sepolicy/vendor/nxp
