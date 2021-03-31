@@ -4,6 +4,10 @@
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/raphael/sepolicy/private
 
+# Dolby Sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/raphael/sepolicy/vendor/dolby
+
 # Misc Sepolicy
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael/sepolicy/vendor/misc
