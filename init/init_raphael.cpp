@@ -85,9 +85,5 @@ void vendor_load_properties()
         property_override("ro.product.model", "Mi 9T Pro");
     }
 
-    // fingerprint
-    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V12.0.1.0.QFKMIXM release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-
     load_dalvikvm_properties();
 }
