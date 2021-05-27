@@ -1,4 +1,4 @@
-Copyright (C) 2021 The PixelExperience Project
+Copyright (C) 2021 The Evolution X Project
 
 Device configuration for Xiaomi Mi 9T Pro / Redmi K20 Pro
 =========================================

@@ -14,14 +14,10 @@
  * limitations under the License.
 */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">35dp</dimen>
-    <dimen name="status_bar_height_landscape">24dp</dimen>
+<resources>
+    <!-- FOD recognizing animation vertical position offset -->
+    <dimen name="fod_animation_offset">1.0px</dimen>
 
-    <!-- Radius of the software rounded corners. -->
-     <dimen name="rounded_corner_radius">103px</dimen>
-
-    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">19px</dimen>
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">25dp</dimen>
 </resources>

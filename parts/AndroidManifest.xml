@@ -29,7 +29,7 @@
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
     <permission
-        android:name="org.pixelexperience.device.MANAGE_POPUP_CAMERA_SERVICE"
+        android:name="org.evolution.device.MANAGE_POPUP_CAMERA_SERVICE"
         android:protectionLevel="signature|privileged" />
 
     <uses-sdk
@@ -65,7 +65,7 @@
         </service>
 
         <service android:name="org.lineageos.settings.popupcamera.PopupCameraService"
-                 android:permission="org.pixelexperience.device.MANAGE_POPUP_CAMERA_SERVICE"
+                 android:permission="org.evolution.device.MANAGE_POPUP_CAMERA_SERVICE"
                  android:exported="true"
                  android:directBootAware="true">
         </service>
@@ -74,10 +74,6 @@
             android:name=".doze.DozeSettingsActivity"
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.Main">
-            <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
 
         <activity

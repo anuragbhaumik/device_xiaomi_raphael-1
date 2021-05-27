@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The PixelExperience Project
+# Copyright (C) 2021 The Evolution X Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_raphael.mk
+    $(LOCAL_DIR)/evolution_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_raphael-user \
-    aosp_raphael-userdebug \
-    aosp_raphael-eng
+    evolution_raphael-user \
+    evolution_raphael-userdebug \
+    evolution_raphael-eng
