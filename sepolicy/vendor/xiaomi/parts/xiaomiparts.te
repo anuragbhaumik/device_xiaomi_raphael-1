@@ -36,5 +36,8 @@ allow xiaomiparts {
   vendor_sysfs_graphics
 }:file rw_file_perms;
 
+# Allow xiaomiparts to read theme_prop
+allow xiaomiparts theme_prop:file { read getattr open };
+
 # Allow xiaomiparts to write to mi_thermald
 allow xiaomiparts sysfs_thermal:file w_file_perms;
